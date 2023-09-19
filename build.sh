@@ -109,7 +109,7 @@ build_xar
 ## Apple TAPI Library ##
 
 if [ $NEED_TAPI_SUPPORT -eq 1 ]; then
-  get_sources https://github.com/tpoechtrager/apple-libtapi.git 1300.6.5
+  get_sources https://github.com/felipemadero/apple-libtapi.git fix
 
   if [ $f_res -eq 1 ]; then
     pushd $CURRENT_BUILD_PROJECT_NAME &>/dev/null
